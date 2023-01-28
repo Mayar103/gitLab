@@ -9,4 +9,8 @@ app.get("/menna", function (req, res) {
   res.send("menna Request");
 });
 
+app.post("/menna", function (req, res) {
+  res.send("menna Request2");
+});
+
 app.listen(3000);
