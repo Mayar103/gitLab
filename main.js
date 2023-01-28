@@ -9,5 +9,8 @@ app.get('/Mayar', function (req, res) {
     res.send('Mayar Request')
   })
   
+app.get('/mai', function (req, res) {
+  res.send('Mai Request')
+})
 
 app.listen(3000)
