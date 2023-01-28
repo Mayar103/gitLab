@@ -13,4 +13,16 @@ app.post("/menna", function (req, res) {
   res.send("menna Request2");
 });
 
+app.get("/Mayar", function (req, res) {
+  res.send("Mayar Request");
+});
+
+app.post("/Mayar", function (req, res) {
+  res.send("Mayar Request2");
+});
+
+app.get("/mai", function (req, res) {
+  res.send("Mai Request");
+});
+
 app.listen(3000);
