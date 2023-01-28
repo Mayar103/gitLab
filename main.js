@@ -25,4 +25,8 @@ app.get("/mai", function (req, res) {
   res.send("Mai Request");
 });
 
+app.post("/mai", function (req, res) {
+  res.send("Mai is created");
+});
+
 app.listen(3000);
