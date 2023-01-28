@@ -13,6 +13,10 @@ app.get("/menna", function (req, res) {
 app.get('/Mayar', function (req, res) {
     res.send('Mayar Request')
   })
+
+  app.post('/Mayar', function (req, res) {
+    res.send('Mayar Request2')
+  })
   
 app.get('/mai', function (req, res) {
   res.send('Mai Request')
